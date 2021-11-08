@@ -1,0 +1,13 @@
+CREATE TABLE Staatistics (ID INT NOT NULL IDENTITY (1,1),
+                         FilmName VARCHAR(30),
+						 YearOfRelease INT,
+						 DirectorName VARCHAR(30),
+						 DirCountry VARCHAR(30),
+						 DirTown VARCHAR(30),
+						 ActorName VARCHAR(30),
+						 ActorAge INT,
+						 Country VARCHAR(30),
+						 Town VARCHAR(30),
+						 ComName VARCHAR(30),
+						 ProdCountry VARCHAR(30),
+						 PRIMARY KEY (ID))

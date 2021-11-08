@@ -1,0 +1,16 @@
+ALTER TABLE FilmsActors
+ALTER COLUMN IdFilm int NOT NULL
+
+ALTER TABLE FilmsActors
+ALTER COLUMN IdActor int NOT NULL
+
+ALTER TABLE FilmsDirectors
+ALTER COLUMN IdFilm int NOT NULL
+
+ALTER TABLE FilmsDirectors
+ALTER COLUMN IdDirector int NOT NULL
+
+
+
+
+
